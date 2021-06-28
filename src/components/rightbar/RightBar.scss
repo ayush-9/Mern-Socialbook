@@ -1,0 +1,39 @@
+.rightbar {
+  flex: 3.5;
+
+  position: sticky;
+}
+
+.rightsearchbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #c2c2c2;
+}
+
+.rightsearchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.rightsearchInput {
+  border: none;
+  width: 70%;
+}
+
+.rightsearchInput:focus {
+  outline: none;
+}
+.rightsidebarFriendList {
+  height: 800px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

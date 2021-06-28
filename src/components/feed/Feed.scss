@@ -1,0 +1,15 @@
+.feed {
+  flex: 5.5;
+  position: sticky;
+  &_wrapper {
+    padding: 20px;
+  }
+  &_list {
+    height: calc(100vh - 120px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}
